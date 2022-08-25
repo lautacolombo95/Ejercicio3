@@ -3,6 +3,7 @@ public class Punto {
     //Constants
     public static final int VALOR_DEF_X = 0;
     public static final int VALOR_DEF_Y = 0;
+    public static final int VALOR_POT_CUADRADO = 2;
 
     //Attributes
     public int X;
@@ -47,7 +48,7 @@ public class Punto {
 
     public double getDistEuc(int coordX,int coordY){
 
-        return Math.sqrt(Math.pow((X - coordX),2) + Math.pow((Y - coordY),2));
+        return Math.sqrt(Math.pow((X - coordX),VALOR_POT_CUADRADO) + Math.pow((Y - coordY),VALOR_POT_CUADRADO));
     }
 
     //Main
@@ -58,4 +59,5 @@ public class Punto {
         double distancia = ejPunto.getDistEuc(ejPunto2.getX(),ejPunto2.getY());
         System.out.println(distancia);
     }
+
 }
