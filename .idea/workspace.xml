@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fe1567d2-16cb-44f5-afd6-3eaf4bf8b885" name="Changes" comment="1st commit, implementation of Punto class">
-      <change afterPath="$PROJECT_DIR$/src/Rectangulo.java" afterDir="false" />
+    <list default="true" id="fe1567d2-16cb-44f5-afd6-3eaf4bf8b885" name="Changes" comment="2nd commit, added Rectangulo class with trasladar method">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Punto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Punto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Rectangulo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Rectangulo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,12 +29,12 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -52,7 +51,14 @@
       <option name="project" value="LOCAL" />
       <updated>1661363132336</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="2nd commit, added Rectangulo class with trasladar method">
+      <created>1661390641145</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1661390641145</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -68,6 +74,15 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="1st commit, implementation of Punto class" />
-    <option name="LAST_COMMIT_MESSAGE" value="1st commit, implementation of Punto class" />
+    <MESSAGE value="2nd commit, added Rectangulo class with trasladar method" />
+    <option name="LAST_COMMIT_MESSAGE" value="2nd commit, added Rectangulo class with trasladar method" />
+  </component>
+  <component name="XDebuggerManager">
+    <watches-manager>
+      <configuration name="Application">
+        <watch expression="this.getAncho()" />
+        <watch expression="this.getAltura()" />
+      </configuration>
+    </watches-manager>
   </component>
 </project>
